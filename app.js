@@ -59,7 +59,9 @@ window.onload = function(){
         clearInterval(Interval);
         tens = "00"
         seconds = "00"
+        min = "00"
         appendtens.innerHTML = tens;
         appendseconds.innerHTML = seconds
+        appendminutes.innerHTML = min
     }
 }
