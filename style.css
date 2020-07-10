@@ -1,0 +1,47 @@
+body{
+    background-color: coral;
+    height: 100%;
+}
+
+.container{
+    width: 800px;
+    margin: 150px auto;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+
+#seconds, .dots,#tens,#minutes{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+button{
+
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 18px 10px;
+    font-size: 1.2em;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+
+    transition: all 0.5s ease-in-out;
+    background-color: white;
+    color: coral;
+    border: 1px solid white;
+}
